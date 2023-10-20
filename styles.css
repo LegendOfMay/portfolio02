@@ -94,3 +94,23 @@ article p {
   }
   
 }
+
+form {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  margin:auto;
+  padding: 20px;
+  border: 5px solid;
+  box-shadow: 10px 10px ;
+  border-radius: 3%;
+
+}
+
+form:hover {
+  background-color: black;
+  box-shadow: 20px 20px 10px tan;  
+  color: white;
+}
