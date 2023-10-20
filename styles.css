@@ -29,3 +29,68 @@ nav a:hover {
   box-shadow: 0 0 3px 3px;
   transition: .3s;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  width: 50%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  z-index: -10;
+  padding: 10px;
+  border: 10px solid rgba(87, 19, 1, 0.42);
+  border-radius: 5%;
+  
+}
+
+p {
+  text-align: center;
+  font-family: fantasy;
+  color: white;
+  
+
+}
+
+.one {
+  text-align: center;
+  color: white;
+  padding: 25px;
+}
+
+.two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  border-radius: 20%;
+  box-shadow: 5px 10px 5px;
+  animation-name: updown;
+  animation-duration: 10s;
+  animation-iteration-count: 2;
+
+}
+
+body {
+  background-color: blanchedalmond;
+}
+
+article p {
+  margin-bottom: 300px;
+  box-shadow: 20px 20px 20px 10px tan ;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-50%);
+  }
+  
+}
