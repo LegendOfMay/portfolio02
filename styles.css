@@ -89,8 +89,8 @@ article p {
   0% {
     transform: translateY(0px);
   }
-  50% {
-    transform: translateY(-50%);
+  50%{
+    transform: translateY(-25%);
   }
   
 }
